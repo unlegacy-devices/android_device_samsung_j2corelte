@@ -21,7 +21,7 @@ jobs:
         sudo apt-get update
         sudo apt-get install zip gcc-multilib g++-multilib \
           libc6-dev-i386 lib32ncurses5-dev lib32z1-dev \
-          libgl1-mesa-dev libxml2-utils xsltproc schedtool axel
+          libgl1-mesa-dev libxml2-utils xsltproc schedtool axel aarch64-linux-android-gcc
         mkdir ~/.jdk_8
         cd ~/.jdk_8
         axel -q -n $(nproc --all) https://repo.huaweicloud.com/java/jdk/8u202-b08/jdk-8u202-linux-x64.tar.gz
